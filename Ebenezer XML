@@ -1,3 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0">
 
-<! DOCTYPE Name [Ebenezer XML
+<?xml-stylesheet type="text/css" href="Ebenezer_style.css"?>
+
+< !-- URL=https://github.com/jeffe150/XML-Project.git -->
+
+<! DOCTYPE Ebenezer XML [
+<!ELEMENT Body (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Subtitle (#PCDATA)>
+<!ELEMENT Section (#PCDATA)>
+<!ELEMENT Bullet (#PCDATA)>
+
+]>
+
+<body>
+
+  <title>Ebenezer Horticultural Therapy:</title>
+    <subtitle>Plants, gardening and the outdoor environment</subtitle>
+
+      <section>Activities:
+      <bullet> Creating seasonal fresh-cut floral arrangements</bullet>
+      <bullet> Learning about and planting seeds for plants to be used in our therapeutic gardens</bullet>
+      <bullet> Planting and tending the fully handicapped-accessible gardens on campus</bullet>
+      <bullet> Cooking with produce and herbs from our gardens</bullet>
+      <bullet> Reading about nature and the great outdoors-related topics</bullet>
+      <bullet> Learning how to attract birds and butterflies to our gardens</bullet>
+      <bullet> Going on garden and nature-related outings to sites in the metro area and beyond</bullet>
+      </section>
+
+  <title>Life Long Learning:</title>
+    <subtitle>Learning and growing helps everyone at every stage of life, and for seniors, the benefits are endless.</subtitle>
+
+
+</body>
