@@ -4,9 +4,9 @@
 
 <!--URL= -->
 
-<! DOCTYPE Ebenezer [
+<!DOCTYPE Ebenezer [
 <!ELEMENT Ebenezer (content)>
-<!ELEMENT content (body, title, heading, subtitle, section, bullet, paragraph, name, phone, email, location, address, donation title)>
+<!ELEMENT content (body, title, heading, subtitle, section, bullet, paragraph, name, phone, email, location, address, donationtitle)>
 <!ELEMENT body (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT heading (#PCDATA)>
@@ -21,9 +21,9 @@
 <!ELEMENT address (#PCDATA)>
 <!ELEMENT donationtitle (#PCDATA)>
 <!ELEMENT button (#PCDATA)>
-<!ENTITY garden_box SYSTEM "ebenezer garden box.jpg" NDATA gif>
-<!ENTITY man_in_ wheelchair SYSTEM "Toronto.png" NDATA gif>
-<!ENTITY woman_in_ wheelchair SYSTEM "4_1_orig.jpg" NDATA gif>
+<!ENTITY garden_box SYSTEM "ebenezergardenbox.jpg" NDATA gif>
+<!ENTITY man_in_wheelchair SYSTEM "Toronto.png" NDATA gif>
+<!ENTITY woman_in_wheelchair SYSTEM "4_1_orig.jpg" NDATA gif>
 <!ENTITY two_seniors_smile SYSTEM "towerapts.jpg" NDATA gif>
 
 
