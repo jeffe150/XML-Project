@@ -1,16 +1,24 @@
-<?xml version="1.0">
+<?xml version=“1.0” encoding=“UTF-8” standalone=“yes”?>
 
 <?xml-stylesheet type="text/css" href="Ebenezer_style.css"?>
 
 < !-- URL=https://github.com/jeffe150/XML-Project.git -->
 
 <! DOCTYPE Ebenezer-XML [
-<!ELEMENT Body (#PCDATA)>
-<!ELEMENT Title (#PCDATA)>
-<!ELEMENT Subtitle (#PCDATA)>
-<!ELEMENT Section (#PCDATA)>
-<!ELEMENT Bullet (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT section (#PCDATA)>
+<!ELEMENT bullet (#PCDATA)>
+<!ELEMENT paragraph (#PCDATA)>
+
 ]>
+
+<!-- include later: user tags for each audience
+<user=participants>
+<user=support>
+<user=donors-other>
+-->
 
 <body>
 
@@ -27,8 +35,23 @@
       <bullet> Going on garden and nature-related outings to sites in the metro area and beyond</bullet>
       </section>
 
-  <title>Life Long Learning:</title>
-    <subtitle>Learning and growing helps everyone at every stage of life, and for seniors, the benefits are endless.</subtitle>
+      <section>Life Long Learning:
+      <subtitle>Learning and growing helps everyone at every stage of life, and for seniors, the benefits are endless.</subtitle>
 
+      <paragraph>Ebenezer's Life Long Learning Initiative is a collection of coordinated arts and education programs designed to
+      foster growth and creativity for seniors. Life-long learning is the process of keeping your mind, body and spirit engaged -at any age -
+      by actively pursuing knowledge and experience. </paragraph>
 
+      <paragraph>Research has shown that with opportunities for self expression and discovery, seniors experience vibrant living, artistic
+      growth as well as improved mental and physical health. Life Long Learning helps our residents stay connected to their world.</paragraph>
+      </section>
+
+      <section>Recent Events
+      <paragraph>Last month our program participants took an outing to the Minnesota Landscape Arboretum! It was a beautiful day to take a look at
+      the huge variety of plants this garden has to offer. Each senior got to enjoy some fresh air and beautiful scenery. Special thanks to our
+      volunteers who assisted any residents with chairs and other mobility issues. </paragraph>
+
+      <paragraph>The first week of August, we held a class on trans-potting houseplants. Every participant got to get their hands dirty and take home
+       a freshly-potted low-maintenance plant for their apartment. </paragraph>
+       </section>
 </body>
