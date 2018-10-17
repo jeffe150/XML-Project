@@ -5,7 +5,8 @@
 <!--URL= -->
 
 <! DOCTYPE Ebenezer [
-<!ELEMENT note (body, title, heading, subtitle, section, bullet, paragraph, name, phone, email, location, address, donation title)>
+<!ELEMENT Ebenezer (content)>
+<!ELEMENT content (body, title, heading, subtitle, section, bullet, paragraph, name, phone, email, location, address, donation title)>
 <!ELEMENT body (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT heading (#PCDATA)>
@@ -33,6 +34,8 @@
   <title>Ebenezer Horticultural Therapy:</title>
     <subtitle>Plants, gardening and the outdoor environment</subtitle>
 
+    <empty_element/>
+
       <section>
       <heading>Activities:</heading>
       <bullet> Creating seasonal fresh-cut floral arrangements</bullet>
@@ -43,6 +46,8 @@
       <bullet> Learning how to attract birds and butterflies to our gardens</bullet>
       <bullet> Going on garden and nature-related outings to sites in the metro area and beyond</bullet>
       </section>
+
+    <empty_element/>
 
       <section>
       <heading> Life Long Learning:</heading>
@@ -56,6 +61,8 @@
       growth as well as improved mental and physical health. Life Long Learning helps our residents stay connected to their world.</paragraph>
       </section>
 
+    <empty_element/>
+
       <section>
       <heading>Recent Events</heading>
       <paragraph>Last month our program participants took an outing to the Minnesota Landscape Arboretum! It was a beautiful day to take a look at
@@ -66,6 +73,8 @@
        a freshly-potted low-maintenance plant for their apartment. </paragraph>
        </section>
 
+    <empty_element/>
+
        <section>
        <heading>Contact</heading>
        <name>Paula Vollmar-Heywood</name>
@@ -74,6 +83,8 @@
        <location>Ebenezer Tower Apartments</location>
        <address>2523 Portland Ave. S. Minneapolis, MN 55404</address>
        </section>
+
+    <empty_element/>
 
        <section>
        <donationtitle>Ebenezer's Horticultural Therapy Program is supported solely by donations.</donationtitle>
@@ -86,5 +97,6 @@
 
         <button>Make A Gift</button>
         </section>
+
 
 </body>
