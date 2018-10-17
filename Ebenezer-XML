@@ -2,7 +2,7 @@
 
 <?xml-stylesheet type="text/css" href="Ebenezer_style.css"?>
 
-< !-- URL=https://github.com/jeffe150/XML-Project.git -->
+< !-- URL=  -->
 
 <! DOCTYPE Ebenezer [
 <!ELEMENT Ebenezer (body, title, subtitle, section, bullet, paragraph, name, phone, email, location, address)>
@@ -61,6 +61,6 @@
        </section>
 
        <section>Contact
-
+       <
 
 </body>
