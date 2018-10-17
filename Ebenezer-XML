@@ -4,14 +4,19 @@
 
 < !-- URL=https://github.com/jeffe150/XML-Project.git -->
 
-<! DOCTYPE Ebenezer-XML [
+<! DOCTYPE Ebenezer [
+<!ELEMENT Ebenezer (body, title, subtitle, section, bullet, paragraph, name, phone, email, location, address)>
 <!ELEMENT body (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT subtitle (#PCDATA)>
 <!ELEMENT section (#PCDATA)>
 <!ELEMENT bullet (#PCDATA)>
 <!ELEMENT paragraph (#PCDATA)>
-
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
 ]>
 
 <!-- include later: user tags for each audience
@@ -54,4 +59,8 @@
       <paragraph>The first week of August, we held a class on trans-potting houseplants. Every participant got to get their hands dirty and take home
        a freshly-potted low-maintenance plant for their apartment. </paragraph>
        </section>
+
+       <section>Contact
+
+
 </body>
