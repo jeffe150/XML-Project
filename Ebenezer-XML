@@ -5,7 +5,7 @@
 < !-- URL= -->
 
 <! DOCTYPE Ebenezer [
-<!ELEMENT note (body, title, subtitle, section, bullet, paragraph, name, phone, email, location, address)>
+<!ELEMENT note (body, title, subtitle, section, bullet, paragraph, name, phone, email, location, address, donation title)>
 <!ELEMENT body (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT subtitle (#PCDATA)>
