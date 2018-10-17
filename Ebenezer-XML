@@ -21,6 +21,12 @@
 <!ELEMENT address (#PCDATA)>
 <!ELEMENT donationtitle (#PCDATA)>
 <!ELEMENT button (#PCDATA)>
+<!ENTITY garden_box SYSTEM "ebenezer garden box.jpg" NDATA gif>
+<!ENTITY man_in_ wheelchair SYSTEM "Toronto.png" NDATA gif>
+<!ENTITY woman_in_ wheelchair SYSTEM "4_1_orig.jpg" NDATA gif>
+<!ENTITY two_seniors_smile SYSTEM "towerapts.jpg" NDATA gif>
+
+
 ]>
 
 <!-- include later: user tags for each audience
@@ -37,6 +43,7 @@
     <empty_element/>
 
       <section>
+      <Graphic entity = "garden_box" />
       <heading>Activities:</heading>
       <bullet> Creating seasonal fresh-cut floral arrangements</bullet>
       <bullet> Learning about and planting seeds for plants to be used in our therapeutic gardens</bullet>
@@ -50,6 +57,7 @@
     <empty_element/>
 
       <section>
+      <Graphic entity = "man_in_ wheelchair" />
       <heading> Life Long Learning:</heading>
       <subtitle>Learning and growing helps everyone at every stage of life, and for seniors, the benefits are endless.</subtitle>
 
@@ -65,10 +73,11 @@
 
       <section>
       <heading>Recent Events</heading>
+      <Graphic entity = "woman_in_wheelchair"/>
       <paragraph>Last month our program participants took an outing to the Minnesota Landscape Arboretum! It was a beautiful day to take a look at
       the huge variety of plants this garden has to offer. Each senior got to enjoy some fresh air and beautiful scenery. Special thanks to our
       volunteers who assisted any residents with chairs and other mobility issues. </paragraph>
-
+      <Graphic entity = "two_seniors_smile"/>
       <paragraph>The first week of August, we held a class on trans-potting houseplants. Every participant got to get their hands dirty and take home
        a freshly-potted low-maintenance plant for their apartment. </paragraph>
        </section>
